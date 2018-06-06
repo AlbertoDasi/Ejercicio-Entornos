@@ -1,12 +1,11 @@
 package transporte;
 
-public class Vehiculo {
-
-	private int numPuertas;
-	private int numRuedas;
+class Vehiculo {
 	
-	public Vehiculo( int numPuertas, int numRuedas){
-	this.numPuertas=numPuertas;
-	this.numRuedas=numRuedas;
+	int numRuedas = 4;
+	int numPuertas=4;
+	boolean llevoRadio=true;
+	
+	public Vehiculo(){
 	}
 }
